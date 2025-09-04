@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual env
+venv/
+.env
+*.env
+
+# Logs & temp
+*.log
+logs/
+tmp/
+*.sqlite
+
+# Airflow
+airflow/logs/
+airflow/tmp/
+airflow/dags/__pycache__/
+
+# Data
+data/raw/
+data/tmp/
+data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Docker
+*.pid
+*.sock
+
+# Reports / Artifacts
+reports/
+assets/
